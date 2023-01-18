@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Sofia+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header starts -->
+    <section id="header">
+        <img src="img/onlogo (2).jpeg" id="logo">
+            <ul id="navbar">
+                <input
+                class="search"
+                placeholder="Search for products, brands and more"
+              /> 
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="Men.html">Men</a></li>
+                <li><a  href="Women.html">Women</a></li>
+                <li><a href="kids.html">Kid's </a></li>
+                <li><a class="active" href="login.html">Log In</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- header ends -->
+    <div class="container">
+        <div class="form-box">
+            <h1 >Log In</h1>
+            <form >
+                <div class="input-group">
+                    <div class="input-field" >
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-field">
+                            <i class="fa fa-envelope"></i>
+                            <input type="e-mail" placeholder="E-mail">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-field">
+                                <i class="fa fa-key" ></i>
+                                <input type="password" placeholder="Password">
+                            </div>
+                            <p>Forget Password <a href="#">Click here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button onclick="loginBtn()">Log In </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+function loginBtn(){
+    alert("Your login has been successfully done ");
+}
+    </script>
+</body>
+</html>
